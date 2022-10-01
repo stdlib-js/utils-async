@@ -88,7 +88,7 @@
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
     "@stdlib/math-base-special-ceil": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/string-repeat": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
