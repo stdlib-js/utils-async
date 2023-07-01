@@ -3,8 +3,30 @@
   "version": "0.0.7",
   "description": "Standard async utilities.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./index.mjs",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +35,85 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/utils-async-any-by": "^0.0.8",
+    "@stdlib/utils-async-any-by-right": "^0.0.8",
+    "@stdlib/utils-async-bifurcate-by": "^0.0.8",
+    "@stdlib/utils-async-compose": "^0.0.8",
+    "@stdlib/utils-async-count-by": "^0.0.8",
+    "@stdlib/utils-async-do-until": "^0.0.8",
+    "@stdlib/utils-async-do-while": "^0.0.8",
+    "@stdlib/utils-async-every-by": "^0.0.8",
+    "@stdlib/utils-async-every-by-right": "^0.0.8",
+    "@stdlib/utils-async-for-each": "^0.0.8",
+    "@stdlib/utils-async-for-each-right": "^0.0.8",
+    "@stdlib/utils-async-function-sequence": "^0.0.8",
+    "@stdlib/utils-async-group-by": "^0.0.8",
+    "@stdlib/utils-async-if-else": "^0.0.7",
+    "@stdlib/utils-async-if-then": "^0.0.7",
+    "@stdlib/utils-async-inmap": "^0.0.8",
+    "@stdlib/utils-async-inmap-right": "^0.0.8",
+    "@stdlib/utils-async-map-function": "^0.0.8",
+    "@stdlib/utils-async-map-keys": "^0.0.8",
+    "@stdlib/utils-async-map-values": "^0.0.8",
+    "@stdlib/utils-async-none-by": "^0.0.8",
+    "@stdlib/utils-async-none-by-right": "^0.0.8",
+    "@stdlib/utils-async-reduce": "^0.0.8",
+    "@stdlib/utils-async-reduce-right": "^0.0.8",
+    "@stdlib/utils-async-series-waterfall": "^0.0.8",
+    "@stdlib/utils-async-some-by": "^0.0.8",
+    "@stdlib/utils-async-some-by-right": "^0.0.8",
+    "@stdlib/utils-async-tabulate-by": "^0.0.8",
+    "@stdlib/utils-async-try-catch": "^0.0.7",
+    "@stdlib/utils-async-try-then": "^0.0.7",
+    "@stdlib/utils-async-until": "^0.0.8",
+    "@stdlib/utils-async-while": "^0.0.8",
+    "@stdlib/utils-define-read-only-property": "^0.0.8"
+  },
+  "devDependencies": {
+    "@stdlib/assert-has-own-property": "^0.0.7",
+    "@stdlib/assert-is-array": "^0.0.7",
+    "@stdlib/assert-is-boolean": "^0.0.8",
+    "@stdlib/assert-is-collection": "^0.0.8",
+    "@stdlib/assert-is-function": "^0.0.8",
+    "@stdlib/assert-is-function-array": "^0.0.7",
+    "@stdlib/assert-is-nan": "^0.0.8",
+    "@stdlib/assert-is-nonnegative-integer": "^0.0.7",
+    "@stdlib/assert-is-plain-object": "^0.0.7",
+    "@stdlib/assert-is-positive-integer": "^0.0.7",
+    "@stdlib/bench": "^0.0.12",
+    "@stdlib/constants-float64-eps": "^0.0.8",
+    "@stdlib/constants-float64-pinf": "^0.0.8",
+    "@stdlib/fs-read-file": "^0.0.8",
+    "@stdlib/math-base-assert-is-nan": "^0.0.8",
+    "@stdlib/math-base-special-ceil": "^0.0.8",
+    "@stdlib/random-base-randu": "^0.0.8",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
+    "@stdlib/string-repeat": "^0.0.9",
+    "@stdlib/string-replace": "^0.0.11",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7",
+    "@stdlib/utils-index-of": "^0.0.8",
+    "@stdlib/utils-keys": "^0.0.7",
+    "@stdlib/utils-noop": "^0.0.14",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdutil",
