@@ -35,30 +35,38 @@ limitations under the License.
 
 > Async utilities.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/utils-async
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var ns = require( '@stdlib/utils-async' );
+ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var ns = require( 'path/to/vendor/umd/utils-async/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.ns;
+})();
+</script>
 ```
 
 #### ns
@@ -123,11 +131,21 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/utils-async' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( objectKeys( ns ) );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -213,69 +231,69 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/utils/async/any-by-right]: https://github.com/stdlib-js/utils-async-any-by-right
+[@stdlib/utils/async/any-by-right]: https://github.com/stdlib-js/utils-async-any-by-right/tree/umd
 
-[@stdlib/utils/async/any-by]: https://github.com/stdlib-js/utils-async-any-by
+[@stdlib/utils/async/any-by]: https://github.com/stdlib-js/utils-async-any-by/tree/umd
 
-[@stdlib/utils/async/bifurcate-by]: https://github.com/stdlib-js/utils-async-bifurcate-by
+[@stdlib/utils/async/bifurcate-by]: https://github.com/stdlib-js/utils-async-bifurcate-by/tree/umd
 
-[@stdlib/utils/async/compose]: https://github.com/stdlib-js/utils-async-compose
+[@stdlib/utils/async/compose]: https://github.com/stdlib-js/utils-async-compose/tree/umd
 
-[@stdlib/utils/async/count-by]: https://github.com/stdlib-js/utils-async-count-by
+[@stdlib/utils/async/count-by]: https://github.com/stdlib-js/utils-async-count-by/tree/umd
 
-[@stdlib/utils/async/do-until]: https://github.com/stdlib-js/utils-async-do-until
+[@stdlib/utils/async/do-until]: https://github.com/stdlib-js/utils-async-do-until/tree/umd
 
-[@stdlib/utils/async/do-while]: https://github.com/stdlib-js/utils-async-do-while
+[@stdlib/utils/async/do-while]: https://github.com/stdlib-js/utils-async-do-while/tree/umd
 
-[@stdlib/utils/async/every-by-right]: https://github.com/stdlib-js/utils-async-every-by-right
+[@stdlib/utils/async/every-by-right]: https://github.com/stdlib-js/utils-async-every-by-right/tree/umd
 
-[@stdlib/utils/async/every-by]: https://github.com/stdlib-js/utils-async-every-by
+[@stdlib/utils/async/every-by]: https://github.com/stdlib-js/utils-async-every-by/tree/umd
 
-[@stdlib/utils/async/for-each-right]: https://github.com/stdlib-js/utils-async-for-each-right
+[@stdlib/utils/async/for-each-right]: https://github.com/stdlib-js/utils-async-for-each-right/tree/umd
 
-[@stdlib/utils/async/for-each]: https://github.com/stdlib-js/utils-async-for-each
+[@stdlib/utils/async/for-each]: https://github.com/stdlib-js/utils-async-for-each/tree/umd
 
-[@stdlib/utils/async/function-sequence]: https://github.com/stdlib-js/utils-async-function-sequence
+[@stdlib/utils/async/function-sequence]: https://github.com/stdlib-js/utils-async-function-sequence/tree/umd
 
-[@stdlib/utils/async/group-by]: https://github.com/stdlib-js/utils-async-group-by
+[@stdlib/utils/async/group-by]: https://github.com/stdlib-js/utils-async-group-by/tree/umd
 
-[@stdlib/utils/async/if-else]: https://github.com/stdlib-js/utils-async-if-else
+[@stdlib/utils/async/if-else]: https://github.com/stdlib-js/utils-async-if-else/tree/umd
 
-[@stdlib/utils/async/if-then]: https://github.com/stdlib-js/utils-async-if-then
+[@stdlib/utils/async/if-then]: https://github.com/stdlib-js/utils-async-if-then/tree/umd
 
-[@stdlib/utils/async/inmap-right]: https://github.com/stdlib-js/utils-async-inmap-right
+[@stdlib/utils/async/inmap-right]: https://github.com/stdlib-js/utils-async-inmap-right/tree/umd
 
-[@stdlib/utils/async/inmap]: https://github.com/stdlib-js/utils-async-inmap
+[@stdlib/utils/async/inmap]: https://github.com/stdlib-js/utils-async-inmap/tree/umd
 
-[@stdlib/utils/async/map-function]: https://github.com/stdlib-js/utils-async-map-function
+[@stdlib/utils/async/map-function]: https://github.com/stdlib-js/utils-async-map-function/tree/umd
 
-[@stdlib/utils/async/map-keys]: https://github.com/stdlib-js/utils-async-map-keys
+[@stdlib/utils/async/map-keys]: https://github.com/stdlib-js/utils-async-map-keys/tree/umd
 
-[@stdlib/utils/async/map-values]: https://github.com/stdlib-js/utils-async-map-values
+[@stdlib/utils/async/map-values]: https://github.com/stdlib-js/utils-async-map-values/tree/umd
 
-[@stdlib/utils/async/none-by-right]: https://github.com/stdlib-js/utils-async-none-by-right
+[@stdlib/utils/async/none-by-right]: https://github.com/stdlib-js/utils-async-none-by-right/tree/umd
 
-[@stdlib/utils/async/none-by]: https://github.com/stdlib-js/utils-async-none-by
+[@stdlib/utils/async/none-by]: https://github.com/stdlib-js/utils-async-none-by/tree/umd
 
-[@stdlib/utils/async/reduce-right]: https://github.com/stdlib-js/utils-async-reduce-right
+[@stdlib/utils/async/reduce-right]: https://github.com/stdlib-js/utils-async-reduce-right/tree/umd
 
-[@stdlib/utils/async/reduce]: https://github.com/stdlib-js/utils-async-reduce
+[@stdlib/utils/async/reduce]: https://github.com/stdlib-js/utils-async-reduce/tree/umd
 
-[@stdlib/utils/async/series-waterfall]: https://github.com/stdlib-js/utils-async-series-waterfall
+[@stdlib/utils/async/series-waterfall]: https://github.com/stdlib-js/utils-async-series-waterfall/tree/umd
 
-[@stdlib/utils/async/some-by-right]: https://github.com/stdlib-js/utils-async-some-by-right
+[@stdlib/utils/async/some-by-right]: https://github.com/stdlib-js/utils-async-some-by-right/tree/umd
 
-[@stdlib/utils/async/some-by]: https://github.com/stdlib-js/utils-async-some-by
+[@stdlib/utils/async/some-by]: https://github.com/stdlib-js/utils-async-some-by/tree/umd
 
-[@stdlib/utils/async/tabulate-by]: https://github.com/stdlib-js/utils-async-tabulate-by
+[@stdlib/utils/async/tabulate-by]: https://github.com/stdlib-js/utils-async-tabulate-by/tree/umd
 
-[@stdlib/utils/async/try-catch]: https://github.com/stdlib-js/utils-async-try-catch
+[@stdlib/utils/async/try-catch]: https://github.com/stdlib-js/utils-async-try-catch/tree/umd
 
-[@stdlib/utils/async/try-then]: https://github.com/stdlib-js/utils-async-try-then
+[@stdlib/utils/async/try-then]: https://github.com/stdlib-js/utils-async-try-then/tree/umd
 
-[@stdlib/utils/async/until]: https://github.com/stdlib-js/utils-async-until
+[@stdlib/utils/async/until]: https://github.com/stdlib-js/utils-async-until/tree/umd
 
-[@stdlib/utils/async/while]: https://github.com/stdlib-js/utils-async-while
+[@stdlib/utils/async/while]: https://github.com/stdlib-js/utils-async-while/tree/umd
 
 <!-- </toc-links> -->
 
