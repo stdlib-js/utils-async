@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-async/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { anyByAsync, anyByRightAsync, bifurcateByAsync, composeAsync, countByAsync, doUntilAsync, doWhileAsync, everyByAsync, everyByRightAsync, forEachAsync, forEachRightAsync, functionSequenceAsync, groupByAsync, ifelseAsync, ifthenAsync, inmapAsync, inmapRightAsync, mapFunAsync, mapKeysAsync, mapValuesAsync, noneByAsync, noneByRightAsync, reduceAsync, reduceRightAsync, someByAsync, someByRightAsync, tabulateByAsync, trycatchAsync, trythenAsync, untilAsync, waterfall, whileAsync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@v0.3.0-deno/mod.js';
+import { anyByAsync, anyByRightAsync, bifurcateByAsync, composeAsync, countByAsync, doUntilAsync, doWhileAsync, everyByAsync, everyByRightAsync, forEachAsync, forEachRightAsync, functionSequenceAsync, groupByAsync, ifelseAsync, ifthenAsync, inmapAsync, inmapRightAsync, mapFunAsync, mapKeysAsync, mapValuesAsync, noneByAsync, noneByRightAsync, reduceAsync, reduceRightAsync, someByAsync, someByRightAsync, tabulateByAsync, trycatchAsync, trythenAsync, untilAsync, waterfall, whileAsync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@deno/mod.js';
 ```
 
 #### ns
@@ -115,7 +120,7 @@ var o = ns;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@v0.3.0-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
