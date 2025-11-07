@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-29)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
@@ -21,9 +21,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#7350](https://github.com/stdlib-js/stdlib/issues/7350), [#8000](https://github.com/stdlib-js/stdlib/issues/8000)
+[#7350](https://github.com/stdlib-js/stdlib/issues/7350), [#8000](https://github.com/stdlib-js/stdlib/issues/8000), [#8140](https://github.com/stdlib-js/stdlib/issues/8140), [#8169](https://github.com/stdlib-js/stdlib/issues/8169)
 
 </section>
 
@@ -35,13 +35,16 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`447a1ea`](https://github.com/stdlib-js/stdlib/commit/447a1ea0a03fa642d8193bdefd6bcb2533f99148) - **chore:** fix JavaScript lint errors [(#8222)](https://github.com/stdlib-js/stdlib/pull/8222) _(by youzi-forge)_
+-   [`78351b3`](https://github.com/stdlib-js/stdlib/commit/78351b361d25d1abd7741df7a2c68f42968a3247) - **chore:** fix JavaScript lint errors [(#8176)](https://github.com/stdlib-js/stdlib/pull/8176) _(by Payal Goswami, Philipp Burckhardt)_
 -   [`d94514b`](https://github.com/stdlib-js/stdlib/commit/d94514bc9418f5b42df6233204d5005d53af00ca) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`07459d3`](https://github.com/stdlib-js/stdlib/commit/07459d3be48a57aac6cc018cbb456749fad79f6a) - **chore:** remove private annotations _(by Philipp Burckhardt)_
 -   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`6b4c40d`](https://github.com/stdlib-js/stdlib/commit/6b4c40ddf5581abcc2a1b33c566455ea57b56bc5) - **feat:** update `utils/async` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`6bb3c64`](https://github.com/stdlib-js/stdlib/commit/6bb3c64c915bb33715e5256fa8073e46b9a4d443) - **docs:** update examples in TSDoc comments in `utils/async` for doctesting _(by Philipp Burckhardt)_
 -   [`18b2372`](https://github.com/stdlib-js/stdlib/commit/18b2372476178bcaa6bd7ddc69396f0e87dc93f2) - **feat:** add missing exports to namespaces _(by Philipp Burckhardt)_
--   [`57b828d`](https://github.com/stdlib-js/stdlib/commit/57b828d10a9b20f3003482557132723a79d27c66) - **chore:** fix JavaScript lint errors [(#8003)](https://github.com/stdlib-js/stdlib/pull/8003) _(by DUDHAT HEMIL PRAVINKUMAR, Athan Reines)_
+-   [`57b828d`](https://github.com/stdlib-js/stdlib/commit/57b828d10a9b20f3003482557132723a79d27c66) - **chore:** fix JavaScript lint errors [(#8003)](https://github.com/stdlib-js/stdlib/pull/8003) _(by Dudhat Hemil Pravinkumar, Athan Reines)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -67,12 +70,14 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   DUDHAT HEMIL PRAVINKUMAR
+-   Dudhat Hemil Pravinkumar
 -   Lokesh Ranjan
+-   Payal Goswami
 -   Philipp Burckhardt
+-   youzi-forge
 
 </section>
 
