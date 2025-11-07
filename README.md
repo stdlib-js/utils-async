@@ -35,20 +35,32 @@ limitations under the License.
 
 > Async utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-async
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { anyByAsync, anyByRightAsync, bifurcateByAsync, composeAsync, countByAsync, doUntilAsync, doWhileAsync, everyByAsync, everyByRightAsync, forEachAsync, forEachRightAsync, functionSequenceAsync, groupByAsync, ifelseAsync, ifthenAsync, inmapAsync, inmapRightAsync, mapFunAsync, mapKeysAsync, mapValuesAsync, noneByAsync, noneByRightAsync, parallel, reduceAsync, reduceRightAsync, someByAsync, someByRightAsync, tabulateByAsync, trycatchAsync, trythenAsync, untilAsync, waterfall, whileAsync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@deno/mod.js';
+var ns = require( '@stdlib/utils-async' );
 ```
 
 #### ns
@@ -86,6 +98,7 @@ var o = ns;
 -   <span class="signature">[`mapValuesAsync( obj, [options,] transform, done )`][@stdlib/utils/async/map-values]</span><span class="delimiter">: </span><span class="description">map values from one object to a new object having the same keys.</span>
 -   <span class="signature">[`noneByRightAsync( collection, [options,] predicate, done )`][@stdlib/utils/async/none-by-right]</span><span class="delimiter">: </span><span class="description">test whether all elements in a collection fail a test implemented by a predicate function, iterating from right to left.</span>
 -   <span class="signature">[`noneByAsync( collection, [options,] predicate, done )`][@stdlib/utils/async/none-by]</span><span class="delimiter">: </span><span class="description">test whether all elements in a collection fail a test implemented by a predicate function.</span>
+-   <span class="signature">[`parallel( fcns, [options,] done )`][@stdlib/utils/async/parallel]</span><span class="delimiter">: </span><span class="description">execute functions in parallel and pass the results of all functions to a provided callback.</span>
 -   <span class="signature">[`reduceRightAsync( collection, initial, [options,] reducer, done )`][@stdlib/utils/async/reduce-right]</span><span class="delimiter">: </span><span class="description">apply a function against an accumulator and each element in a collection and return the accumulated result, iterating from right to left.</span>
 -   <span class="signature">[`reduceAsync( collection, initial, [options,] reducer, done )`][@stdlib/utils/async/reduce]</span><span class="delimiter">: </span><span class="description">apply a function against an accumulator and each element in a collection and return the accumulated result.</span>
 -   <span class="signature">[`waterfall( fcns, clbk[, thisArg] )`][@stdlib/utils/async/series-waterfall]</span><span class="delimiter">: </span><span class="description">execute functions in series, passing the results of one function as arguments to the next function.</span>
@@ -114,8 +127,8 @@ var o = ns;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/utils-async' );
 
 console.log( objectKeys( ns ) );
 ```
@@ -141,7 +154,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -206,69 +219,71 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/utils/async/any-by-right]: https://github.com/stdlib-js/utils-async-any-by-right/tree/deno
+[@stdlib/utils/async/any-by-right]: https://github.com/stdlib-js/utils-async-any-by-right
 
-[@stdlib/utils/async/any-by]: https://github.com/stdlib-js/utils-async-any-by/tree/deno
+[@stdlib/utils/async/any-by]: https://github.com/stdlib-js/utils-async-any-by
 
-[@stdlib/utils/async/bifurcate-by]: https://github.com/stdlib-js/utils-async-bifurcate-by/tree/deno
+[@stdlib/utils/async/bifurcate-by]: https://github.com/stdlib-js/utils-async-bifurcate-by
 
-[@stdlib/utils/async/compose]: https://github.com/stdlib-js/utils-async-compose/tree/deno
+[@stdlib/utils/async/compose]: https://github.com/stdlib-js/utils-async-compose
 
-[@stdlib/utils/async/count-by]: https://github.com/stdlib-js/utils-async-count-by/tree/deno
+[@stdlib/utils/async/count-by]: https://github.com/stdlib-js/utils-async-count-by
 
-[@stdlib/utils/async/do-until]: https://github.com/stdlib-js/utils-async-do-until/tree/deno
+[@stdlib/utils/async/do-until]: https://github.com/stdlib-js/utils-async-do-until
 
-[@stdlib/utils/async/do-while]: https://github.com/stdlib-js/utils-async-do-while/tree/deno
+[@stdlib/utils/async/do-while]: https://github.com/stdlib-js/utils-async-do-while
 
-[@stdlib/utils/async/every-by-right]: https://github.com/stdlib-js/utils-async-every-by-right/tree/deno
+[@stdlib/utils/async/every-by-right]: https://github.com/stdlib-js/utils-async-every-by-right
 
-[@stdlib/utils/async/every-by]: https://github.com/stdlib-js/utils-async-every-by/tree/deno
+[@stdlib/utils/async/every-by]: https://github.com/stdlib-js/utils-async-every-by
 
-[@stdlib/utils/async/for-each-right]: https://github.com/stdlib-js/utils-async-for-each-right/tree/deno
+[@stdlib/utils/async/for-each-right]: https://github.com/stdlib-js/utils-async-for-each-right
 
-[@stdlib/utils/async/for-each]: https://github.com/stdlib-js/utils-async-for-each/tree/deno
+[@stdlib/utils/async/for-each]: https://github.com/stdlib-js/utils-async-for-each
 
-[@stdlib/utils/async/function-sequence]: https://github.com/stdlib-js/utils-async-function-sequence/tree/deno
+[@stdlib/utils/async/function-sequence]: https://github.com/stdlib-js/utils-async-function-sequence
 
-[@stdlib/utils/async/group-by]: https://github.com/stdlib-js/utils-async-group-by/tree/deno
+[@stdlib/utils/async/group-by]: https://github.com/stdlib-js/utils-async-group-by
 
-[@stdlib/utils/async/if-else]: https://github.com/stdlib-js/utils-async-if-else/tree/deno
+[@stdlib/utils/async/if-else]: https://github.com/stdlib-js/utils-async-if-else
 
-[@stdlib/utils/async/if-then]: https://github.com/stdlib-js/utils-async-if-then/tree/deno
+[@stdlib/utils/async/if-then]: https://github.com/stdlib-js/utils-async-if-then
 
-[@stdlib/utils/async/inmap-right]: https://github.com/stdlib-js/utils-async-inmap-right/tree/deno
+[@stdlib/utils/async/inmap-right]: https://github.com/stdlib-js/utils-async-inmap-right
 
-[@stdlib/utils/async/inmap]: https://github.com/stdlib-js/utils-async-inmap/tree/deno
+[@stdlib/utils/async/inmap]: https://github.com/stdlib-js/utils-async-inmap
 
-[@stdlib/utils/async/map-function]: https://github.com/stdlib-js/utils-async-map-function/tree/deno
+[@stdlib/utils/async/map-function]: https://github.com/stdlib-js/utils-async-map-function
 
-[@stdlib/utils/async/map-keys]: https://github.com/stdlib-js/utils-async-map-keys/tree/deno
+[@stdlib/utils/async/map-keys]: https://github.com/stdlib-js/utils-async-map-keys
 
-[@stdlib/utils/async/map-values]: https://github.com/stdlib-js/utils-async-map-values/tree/deno
+[@stdlib/utils/async/map-values]: https://github.com/stdlib-js/utils-async-map-values
 
-[@stdlib/utils/async/none-by-right]: https://github.com/stdlib-js/utils-async-none-by-right/tree/deno
+[@stdlib/utils/async/none-by-right]: https://github.com/stdlib-js/utils-async-none-by-right
 
-[@stdlib/utils/async/none-by]: https://github.com/stdlib-js/utils-async-none-by/tree/deno
+[@stdlib/utils/async/none-by]: https://github.com/stdlib-js/utils-async-none-by
 
-[@stdlib/utils/async/reduce-right]: https://github.com/stdlib-js/utils-async-reduce-right/tree/deno
+[@stdlib/utils/async/parallel]: https://github.com/stdlib-js/utils-async-parallel
 
-[@stdlib/utils/async/reduce]: https://github.com/stdlib-js/utils-async-reduce/tree/deno
+[@stdlib/utils/async/reduce-right]: https://github.com/stdlib-js/utils-async-reduce-right
 
-[@stdlib/utils/async/series-waterfall]: https://github.com/stdlib-js/utils-async-series-waterfall/tree/deno
+[@stdlib/utils/async/reduce]: https://github.com/stdlib-js/utils-async-reduce
 
-[@stdlib/utils/async/some-by-right]: https://github.com/stdlib-js/utils-async-some-by-right/tree/deno
+[@stdlib/utils/async/series-waterfall]: https://github.com/stdlib-js/utils-async-series-waterfall
 
-[@stdlib/utils/async/some-by]: https://github.com/stdlib-js/utils-async-some-by/tree/deno
+[@stdlib/utils/async/some-by-right]: https://github.com/stdlib-js/utils-async-some-by-right
 
-[@stdlib/utils/async/tabulate-by]: https://github.com/stdlib-js/utils-async-tabulate-by/tree/deno
+[@stdlib/utils/async/some-by]: https://github.com/stdlib-js/utils-async-some-by
 
-[@stdlib/utils/async/try-catch]: https://github.com/stdlib-js/utils-async-try-catch/tree/deno
+[@stdlib/utils/async/tabulate-by]: https://github.com/stdlib-js/utils-async-tabulate-by
 
-[@stdlib/utils/async/try-then]: https://github.com/stdlib-js/utils-async-try-then/tree/deno
+[@stdlib/utils/async/try-catch]: https://github.com/stdlib-js/utils-async-try-catch
 
-[@stdlib/utils/async/until]: https://github.com/stdlib-js/utils-async-until/tree/deno
+[@stdlib/utils/async/try-then]: https://github.com/stdlib-js/utils-async-try-then
 
-[@stdlib/utils/async/while]: https://github.com/stdlib-js/utils-async-while/tree/deno
+[@stdlib/utils/async/until]: https://github.com/stdlib-js/utils-async-until
+
+[@stdlib/utils/async/while]: https://github.com/stdlib-js/utils-async-while
 
 <!-- </toc-links> -->
 
