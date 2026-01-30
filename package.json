@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-async",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Standard async utilities.",
   "license": "Apache-2.0",
   "author": {
@@ -72,6 +72,7 @@
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-filled": "^0.2.1",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-array": "^0.2.2",
     "@stdlib/assert-is-boolean": "^0.2.2",

@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.4.0">
 
-## Unreleased (2025-11-07)
+## 0.4.0 (2026-01-30)
 
 <section class="features">
 
@@ -21,9 +21,9 @@
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 12 issues were closed in this release:
 
-[#7350](https://github.com/stdlib-js/stdlib/issues/7350), [#8000](https://github.com/stdlib-js/stdlib/issues/8000), [#8140](https://github.com/stdlib-js/stdlib/issues/8140), [#8169](https://github.com/stdlib-js/stdlib/issues/8169)
+[#6417](https://github.com/stdlib-js/stdlib/issues/6417), [#7350](https://github.com/stdlib-js/stdlib/issues/7350), [#8000](https://github.com/stdlib-js/stdlib/issues/8000), [#8140](https://github.com/stdlib-js/stdlib/issues/8140), [#8169](https://github.com/stdlib-js/stdlib/issues/8169), [#8253](https://github.com/stdlib-js/stdlib/issues/8253), [#8268](https://github.com/stdlib-js/stdlib/issues/8268), [#8577](https://github.com/stdlib-js/stdlib/issues/8577), [#9032](https://github.com/stdlib-js/stdlib/issues/9032), [#9687](https://github.com/stdlib-js/stdlib/issues/9687), [#9833](https://github.com/stdlib-js/stdlib/issues/9833), [#9851](https://github.com/stdlib-js/stdlib/issues/9851)
 
 </section>
 
@@ -35,6 +35,20 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`fbf9b05`](https://github.com/stdlib-js/stdlib/commit/fbf9b05485f4e55d549c1da242c01e39972dd2ac) - **chore:** resolve lint errors [(#9853)](https://github.com/stdlib-js/stdlib/pull/9853) _(by Om-A-osc, Athan Reines)_
+-   [`5852d17`](https://github.com/stdlib-js/stdlib/commit/5852d1790fb92fa1464b4cca295bb7724d557013) - **chore:** fix JavaScript lint errors [(#9837)](https://github.com/stdlib-js/stdlib/pull/9837) _(by Utkarsh Singhal)_
+-   [`7aec76a`](https://github.com/stdlib-js/stdlib/commit/7aec76a713e908d3489003144b7d1e470b62745e) - **refactor:** ensure contiguous array allocation _(by Athan Reines)_
+-   [`7d17660`](https://github.com/stdlib-js/stdlib/commit/7d17660137c611ad174f81df229a31f4d3080cbc) - **chore:** fix JavaScript lint errors [(#9690)](https://github.com/stdlib-js/stdlib/pull/9690) _(by Divyanshu)_
+-   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
+-   [`e8707d4`](https://github.com/stdlib-js/stdlib/commit/e8707d4ad730b5e4b346f17fd045ed7ea3cefb83) - **chore:** fix JavaScript lint errors [(#6424)](https://github.com/stdlib-js/stdlib/pull/6424) _(by Sibi, Athan Reines, stdlib-bot)_
+-   [`2ea832b`](https://github.com/stdlib-js/stdlib/commit/2ea832bac1694a9a9baa302603e7e08e24130f1b) - **chore:** fix JavaScript lint errors [(#9039)](https://github.com/stdlib-js/stdlib/pull/9039) _(by 0x00000F, Athan Reines)_
+-   [`cd0d010`](https://github.com/stdlib-js/stdlib/commit/cd0d010a9f4a8f98c18a6fbd778d91509cd91e6b) - **chore:** fix JavaScript lint errors [(#8420)](https://github.com/stdlib-js/stdlib/pull/8420) _(by kaushal-kumar-it, Athan Reines)_
+-   [`a0f2b40`](https://github.com/stdlib-js/stdlib/commit/a0f2b403a936770b83022b57027ad17312e15bb7) - **docs:** update example _(by Athan Reines)_
+-   [`546d714`](https://github.com/stdlib-js/stdlib/commit/546d71415bfaa6861cb8757741e1c465c7759590) - **docs:** fix example code and return annotations in TSDoc declarations _(by Philipp Burckhardt)_
+-   [`92dc7c2`](https://github.com/stdlib-js/stdlib/commit/92dc7c2bea09a0f1d6d12d9048381cc8bcc99fe3) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
+-   [`54f9e1b`](https://github.com/stdlib-js/stdlib/commit/54f9e1b148a5b28618ff25e2b49fa2bd7dc8e946) - **chore:** fix JavaScript lint errors [(#8582)](https://github.com/stdlib-js/stdlib/pull/8582) _(by kaushal-kumar-it)_
+-   [`c8faa25`](https://github.com/stdlib-js/stdlib/commit/c8faa25f77167844cb222e101f584dda14f82fd8) - **chore:** fix JavaScript lint errors [(#8424)](https://github.com/stdlib-js/stdlib/pull/8424) _(by kaushal-kumar-it, Athan Reines)_
+-   [`b9b8bcf`](https://github.com/stdlib-js/stdlib/commit/b9b8bcfd9708edd2b7b6c867bdfdde60f8e2b27b) - **chore:** resolve lint error in `utils/async/while` [(#8269)](https://github.com/stdlib-js/stdlib/pull/8269) _(by Suyash Pathak, Athan Reines)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`447a1ea`](https://github.com/stdlib-js/stdlib/commit/447a1ea0a03fa642d8193bdefd6bcb2533f99148) - **chore:** fix JavaScript lint errors [(#8222)](https://github.com/stdlib-js/stdlib/pull/8222) _(by youzi-forge)_
 -   [`78351b3`](https://github.com/stdlib-js/stdlib/commit/78351b361d25d1abd7741df7a2c68f42968a3247) - **chore:** fix JavaScript lint errors [(#8176)](https://github.com/stdlib-js/stdlib/pull/8176) _(by Payal Goswami, Philipp Burckhardt)_
@@ -70,13 +84,20 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 13 people contributed to this release. Thank you to the following contributors:
 
+-   0x00000F
 -   Athan Reines
+-   Divyanshu
 -   Dudhat Hemil Pravinkumar
 -   Lokesh Ranjan
+-   Om-A-osc
 -   Payal Goswami
 -   Philipp Burckhardt
+-   Sibi
+-   Suyash Pathak
+-   Utkarsh Singhal
+-   kaushal-kumar-it
 -   youzi-forge
 
 </section>
