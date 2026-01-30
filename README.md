@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@v0.4.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { anyByAsync, anyByRightAsync, bifurcateByAsync, composeAsync, countByAsync, doUntilAsync, doWhileAsync, everyByAsync, everyByRightAsync, forEachAsync, forEachRightAsync, functionSequenceAsync, groupByAsync, ifelseAsync, ifthenAsync, inmapAsync, inmapRightAsync, mapFunAsync, mapKeysAsync, mapValuesAsync, noneByAsync, noneByRightAsync, parallel, reduceAsync, reduceRightAsync, someByAsync, someByRightAsync, tabulateByAsync, trycatchAsync, trythenAsync, untilAsync, waterfall, whileAsync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@deno/mod.js';
+import { anyByAsync, anyByRightAsync, bifurcateByAsync, composeAsync, countByAsync, doUntilAsync, doWhileAsync, everyByAsync, everyByRightAsync, forEachAsync, forEachRightAsync, functionSequenceAsync, groupByAsync, ifelseAsync, ifthenAsync, inmapAsync, inmapRightAsync, mapFunAsync, mapKeysAsync, mapValuesAsync, noneByAsync, noneByRightAsync, parallel, reduceAsync, reduceRightAsync, someByAsync, someByRightAsync, tabulateByAsync, trycatchAsync, trythenAsync, untilAsync, waterfall, whileAsync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@v0.4.0-deno/mod.js';
 ```
 
 #### ns
@@ -116,7 +116,7 @@ var o = ns;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async@v0.4.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
