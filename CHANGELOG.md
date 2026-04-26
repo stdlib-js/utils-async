@@ -2,6 +2,62 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-04-26)
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 4 issues were closed in this release:
+
+[#10556](https://github.com/stdlib-js/stdlib/issues/10556), [#11123](https://github.com/stdlib-js/stdlib/issues/11123), [#11183](https://github.com/stdlib-js/stdlib/issues/11183), [#11517](https://github.com/stdlib-js/stdlib/issues/11517)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`67cdf3c`](https://github.com/stdlib-js/stdlib/commit/67cdf3cc8be241859493c2da00974d595eef73cb) - **chore:** propagate recent doctest and lint fixes to sibling packages [(#11585)](https://github.com/stdlib-js/stdlib/pull/11585) _(by Philipp Burckhardt)_
+-   [`42acdf2`](https://github.com/stdlib-js/stdlib/commit/42acdf26b0ce7508c49ca70927bf6d696aeb7f64) - **docs:** update examples _(by Athan Reines)_
+-   [`650bf8a`](https://github.com/stdlib-js/stdlib/commit/650bf8aca46c48d15142d7b16dad34a3af09dda2) - **chore:** fix JavaScript lint errors [(#11533)](https://github.com/stdlib-js/stdlib/pull/11533) _(by Bhumika Sudarshani)_
+-   [`38289cf`](https://github.com/stdlib-js/stdlib/commit/38289cfd2d9d8e7e619258ac506515eabb97acaf) - **chore:** fix JavaScript lint errors [(#11187)](https://github.com/stdlib-js/stdlib/pull/11187) _(by Trần Hoàng Tú)_
+-   [`d5098cc`](https://github.com/stdlib-js/stdlib/commit/d5098cc7e724888381ac7b70bcb2e1269df9f162) - **chore:** fix JavaScript lint errors [(#11133)](https://github.com/stdlib-js/stdlib/pull/11133) _(by Sujal Rana, Athan Reines)_
+-   [`086d2d6`](https://github.com/stdlib-js/stdlib/commit/086d2d61999c12b8ec98b96dbbf9677b835181ea) - **chore:** fix JavaScript lint errors [(#10557)](https://github.com/stdlib-js/stdlib/pull/10557) _(by Partha Das, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 6 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Bhumika Sudarshani
+-   Partha Das
+-   Philipp Burckhardt
+-   Sujal Rana
+-   Trần Hoàng Tú
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-07)
