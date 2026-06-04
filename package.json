@@ -73,6 +73,7 @@
   },
   "devDependencies": {
     "@stdlib/array-filled": "^0.3.1",
+    "@stdlib/array-full": "^0.3.1",
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-array": "^0.2.3",
     "@stdlib/assert-is-boolean": "^0.2.3",
