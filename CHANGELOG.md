@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-04)
+## Unreleased (2026-07-16)
 
 <section class="issues">
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#10556](https://github.com/stdlib-js/stdlib/issues/10556), [#11123](https://github.com/stdlib-js/stdlib/issues/11123), [#11183](https://github.com/stdlib-js/stdlib/issues/11183), [#11517](https://github.com/stdlib-js/stdlib/issues/11517)
+[#10556](https://github.com/stdlib-js/stdlib/issues/10556), [#11123](https://github.com/stdlib-js/stdlib/issues/11123), [#11183](https://github.com/stdlib-js/stdlib/issues/11183), [#11209](https://github.com/stdlib-js/stdlib/issues/11209), [#11517](https://github.com/stdlib-js/stdlib/issues/11517)
 
 </section>
 
@@ -24,6 +24,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`1396582`](https://github.com/stdlib-js/stdlib/commit/1396582a1c2c075d60f79d72115145b5ee2dd245) - **chore:** fix JavaScript lint errors [(#11211)](https://github.com/stdlib-js/stdlib/pull/11211) _(by Jean Carlos Vargas, Athan Reines)_
 -   [`1c95150`](https://github.com/stdlib-js/stdlib/commit/1c9515034550374b8759dcaf681c6cbc99d47030) - **docs:** fix errors and inconsistencies in `@stdlib/utils` TypeScript declarations [(#12391)](https:-/github.com/stdlib-js/stdlib/pull/12391) _(by Philipp Burckhardt, Athan Reines)_
 -   [`822fadc`](https://github.com/stdlib-js/stdlib/commit/822fadca5619ac17182fad841af43ec6d1cdd81e) - **bench:** refactor to use string interpolation in `utils` [(#11410)](https://github.com/stdlib-js/stdlib/pull/11410) _(by Karan Anand, Athan Reines)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
@@ -44,10 +45,11 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhumika Sudarshani
+-   Jean Carlos Vargas
 -   Karan Anand
 -   Partha Das
 -   Philipp Burckhardt
